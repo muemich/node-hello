@@ -1,4 +1,4 @@
-FROM openshift/nodejs-010-centos7
+FROM node:4-onbuild
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY package.json usr/src/app/package.json
