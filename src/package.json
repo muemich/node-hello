@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "description": "Node.js WebApp",
   "author": "Michael Mueller <michael.mueller@container-solutions.com>",
-  "main": "hello.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node hello.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.13.3"
